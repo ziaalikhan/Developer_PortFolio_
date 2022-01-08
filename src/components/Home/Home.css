@@ -1,0 +1,49 @@
+.heroPage {
+  /* height: 599px; */
+  padding-bottom: 10%;
+  background: radial-gradient(at top left, rgb(0, 0, 0) 0%, #0a020ac0 100%);
+}
+
+.name_Heading {
+  font-size: 40px;
+  color: white;
+}
+
+.myDesc {
+  text-align: center;
+  margin-top: 28%;
+}
+
+.skills {
+  margin-top: 5%;
+  font-size: 25px;
+}
+
+.work_Btn {
+  margin-top: 5%;
+  width: 11rem;
+  height: 3rem;
+  background-color: #14279b;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  color: white;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.work_Btn:hover {
+  background-color: white;
+  color: #14279b;
+  transition: all 0.3s ease 0s;
+  transform: translateY(-5px);
+}
+
+.image {
+  text-align: center;
+  margin-top: 17%;
+}
+.image > img {
+  width: 95%;
+  height: 95%;
+  /* transform: rotate(30deg); */
+}

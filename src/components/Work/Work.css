@@ -1,0 +1,39 @@
+.work_Bg {
+  background-image: url("../../assets/images/workbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.main_work_cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 6%;
+}
+
+.cardsItem {
+  width: 300px;
+  min-height: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 3px 13px 3px rgba(0, 0, 0, 0.85);
+}
+.work_image > img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.links {
+  text-align: center;
+  padding: 15px;
+}
+.icons_works {
+  cursor: pointer;
+}
+
+.links {
+  color: black !important;
+}

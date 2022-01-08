@@ -1,0 +1,75 @@
+.contact_Bg {
+  background-image: url("../../assets/images/workbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.contact_Image {
+  text-align: center;
+}
+.contact_Image > img {
+  width: 70%;
+  height: 70%;
+}
+.contact_forms {
+  text-align: center;
+  margin-top: 12%;
+}
+input[type="text"],
+select,
+textarea {
+  width: 60%;
+  padding: 6px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+}
+@media only screen and (max-width: 470px) {
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+  }
+}
+.contact_Btn {
+  margin-top: 5%;
+  width: 11rem;
+  height: 3rem;
+  background-color: #14279b;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  color: white;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.contact_Btn:hover {
+  background-color: white;
+  color: #14279b;
+  transition: all 0.3s ease 0s;
+  transform: translateY(-5px);
+}
+
+.social_Icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  padding: 10px;
+}
+
+.icons > .fb {
+  color: rgb(62, 62, 231);
+}
+.icons > .insta {
+  color: rgba(241, 8, 8, 0.747);
+}
+.icons > .linkd {
+  color: rgb(62, 62, 231);
+}
